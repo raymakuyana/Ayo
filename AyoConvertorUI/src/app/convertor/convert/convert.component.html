@@ -1,0 +1,60 @@
+
+
+
+
+<div class="container">
+  <h2>Conversion form</h2>
+  <form [formGroup]="coversionForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="method">Conversion Method:</label>
+      <select class="form-control" id="method"  formControlName="conversionMethod"   [ngClass]="{ 'is-invalid': submitted && f.conversionMethod.errors }" >
+        <!-- <option selected [ngValue]="null" disabled>Choose your profile</option> -->
+        <option *ngFor="let prf of conversionMethods" [ngValue]="prf">
+        {{ prf.conversionMethodDescription }}
+        </option>
+      </select>
+      <div *ngIf="submitted && f.conversionMethod.errors" class="invalid-feedback">
+        <div *ngIf="f.conversionMethod.errors.required">Conversion Method value is required</div>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputValue">Input Value:</label>
+      <input type="number" class="form-control" id="inputValue" placeholder="Enter Input Value" name="pwd"  formControlName="inputValue" [ngClass]="{ 'is-invalid': submitted && f.inputValue.errors }">
+      <div *ngIf="submitted && f.inputValue.errors" class="invalid-feedback">
+        <div *ngIf="f.inputValue.errors.required">Input value is required</div>
+      </div>
+    </div>
+    <div class="button">
+      <button type="submit" class="btn btn-primary">Submit</button>&nbsp;
+      <button class="btn btn-secondary" type="reset" (click)="onReset()">Cancel</button>
+    </div>
+ 
+    
+ 
+   <br>
+   <ngx-spinner
+   bdColor="rgba(51,51,51,0.8)"
+   size="medium"
+   color="#fff"
+   type="ball-scale-multiple"
+ >
+   <p style="font-size: 20px; color: white">Loading...</p>
+ </ngx-spinner>
+ 
+   <br>
+    <div class="row" *ngIf= " submitted && coversionForm.invalid == false && this.conversionResponse != null">
+      <div class="col-sm-12" style="background-color:lightblue;">
+        <p>  Result:&nbsp; {{ this.conversionResponse?.outputUnitOfMeasure}}&nbsp; {{ this.conversionResponse?.outputValue}}</p>
+      </div>
+    </div>
+
+  
+  </form>
+</div>
+
+
+
+
+
+
+
