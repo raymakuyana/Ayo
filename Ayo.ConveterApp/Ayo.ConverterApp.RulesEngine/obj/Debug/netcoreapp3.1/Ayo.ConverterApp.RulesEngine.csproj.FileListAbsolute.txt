@@ -1,0 +1,12 @@
+C:\Users\User\source\reposRay\Ayo.ConveterApp\Ayo.ConverterApp.RulesEngine\bin\Debug\netcoreapp3.1\Ayo.ConverterApp.RulesEngine.deps.json
+C:\Users\User\source\reposRay\Ayo.ConveterApp\Ayo.ConverterApp.RulesEngine\bin\Debug\netcoreapp3.1\Ayo.ConverterApp.RulesEngine.dll
+C:\Users\User\source\reposRay\Ayo.ConveterApp\Ayo.ConverterApp.RulesEngine\bin\Debug\netcoreapp3.1\Ayo.ConverterApp.RulesEngine.pdb
+C:\Users\User\source\reposRay\Ayo.ConveterApp\Ayo.ConverterApp.RulesEngine\bin\Debug\netcoreapp3.1\Ayo.ConverterApp.Core.dll
+C:\Users\User\source\reposRay\Ayo.ConveterApp\Ayo.ConverterApp.RulesEngine\bin\Debug\netcoreapp3.1\Ayo.ConverterApp.Core.pdb
+C:\Users\User\source\reposRay\Ayo.ConveterApp\Ayo.ConverterApp.RulesEngine\obj\Debug\netcoreapp3.1\Ayo.ConverterApp.RulesEngine.csprojAssemblyReference.cache
+C:\Users\User\source\reposRay\Ayo.ConveterApp\Ayo.ConverterApp.RulesEngine\obj\Debug\netcoreapp3.1\Ayo.ConverterApp.RulesEngine.AssemblyInfoInputs.cache
+C:\Users\User\source\reposRay\Ayo.ConveterApp\Ayo.ConverterApp.RulesEngine\obj\Debug\netcoreapp3.1\Ayo.ConverterApp.RulesEngine.AssemblyInfo.cs
+C:\Users\User\source\reposRay\Ayo.ConveterApp\Ayo.ConverterApp.RulesEngine\obj\Debug\netcoreapp3.1\Ayo.ConverterApp.RulesEngine.csproj.CoreCompileInputs.cache
+C:\Users\User\source\reposRay\Ayo.ConveterApp\Ayo.ConverterApp.RulesEngine\obj\Debug\netcoreapp3.1\Ayo.ConverterApp.RulesEngine.csproj.CopyComplete
+C:\Users\User\source\reposRay\Ayo.ConveterApp\Ayo.ConverterApp.RulesEngine\obj\Debug\netcoreapp3.1\Ayo.ConverterApp.RulesEngine.dll
+C:\Users\User\source\reposRay\Ayo.ConveterApp\Ayo.ConverterApp.RulesEngine\obj\Debug\netcoreapp3.1\Ayo.ConverterApp.RulesEngine.pdb
